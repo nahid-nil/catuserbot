@@ -6,11 +6,11 @@ class Development(Config):
     APP_ID = 12008999
     API_HASH = "c578bfe1625c0bfdfc4916f3a56ea6d1"
     # the name to display in your alive message
-    ALIVE_NAME = "YOUR NAME"
+    ALIVE_NAME = "YOUR NIL"
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
-    DB_URI = "Your value"
+    DB_URI = "postgres://cctihzpp:z8bwA134TQR9wuerQQQbFXSgbVGSNetx@tuffi.db.elephantsql.com/cctihzpp"
     # After cloning the repo and installing requirements do python3 stringsetup.py an fill that value with this
-    STRING_SESSION = "1BVtsOGYBu4k9stp7TSvrANcMCeGA5ytP2gMF0xf_yfhLHe43Z1Axzx2ToxheUs_FkWXrGW2r8yJfFFPxULLkvwWMFmYJ5VBxtKojhwPRy1ITIw5wHqrJB8Elag5gAXsJufeMUb3dAi1rIV3TpaxTcNdFqnYVhe1pdNK7H-9-8bu6WOVXRjswMvj8G6jcgem4APUp1G6RD_fkAwfx5kMQq6JeGmMUDvHaH2g2xzBwi26WkxiHU0BsPrRN850dnpxRc_2TO8ZjSYBiylmqMLZA5HjHoly6xZ6jyCGXp82_gqMNFKTAUNWqRpt3h7DiY0dqY-Sy8KdhgErw8zh3cKzbBKOoDqoEyLM="
+    STRING_SESSION = "BQC3PicALruSS6xa-_at8JhaVbNJWf0V7aNVzBfg4oJHvrDipig18TG5rPSaPBFNgPw2Cu0AWf8M0O7lUbp27ZjL2KHkNws6d8S4pbElKzjvkVMdbizegB9gfxNfQ-DzddvS04RZdmPtTM6viKpQp2RdK-FWbT4DqEVnH5HmKwRsC34-ubuo5S8r8cBtxcbonfbsiX3Fpntp-PZrcb_Gc6KaZmdaztLvibgFpxHKQ1ah1132tVQiQHHvigxqa1Sp9oq_RZ6-h8fyFP6Dn1KSHnPEXsRAsHXNOgJXQGaSzCJevHAIovWXfF6lFt5dqXgzTa7K6pO6Bto5WPGR8lBOXfDfYgKSGgAAAAE0rwUXAA"
     # create a new bot in @botfather and fill the following vales with bottoken
     TG_BOT_TOKEN = "5795573598:AAHAVju9fArv-H09tjXO0Zgs3RnA3RIkZoA"
     # create a private group and a rose bot to it and type /id and paste that id here (replace that -100 with that group id)
