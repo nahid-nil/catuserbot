@@ -15,14 +15,14 @@ class Config(object):
     # set this value with your name
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 12008999))
-    API_HASH = os.environ.get("API_HASH"), c578bfe1625c0bfdfc4916f3a56ea6d1))
+    APP_ID = int(os.environ.get("APP_ID", 6))
+    API_HASH = os.environ.get("API_HASH") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", 1BVtsOGYBu50MPaVU77gz9kCxy2mz5dU-B3BfQfvka1Z7optYd0g3pmuFp9OOUI2IsPx4D5KTERM-EILl8AIDX9I7XRwu7uiGR2g0mfRG4ofR6dDPURUhgqpir2G2K28QTO8tl4jJfEEMLEOtFcoTpYe5Ift8Dj6S2AII1tvaPu2pQ1jy8dgOUPD1Cqfw_PV5S8IpnjYMCAFp4XYzE6gRalofsuT2iLuwjZR-vTz5uZKUIKlTYCDW9Lr1RPDCWcaB6-0FBltyfNjiksyX5ZMBxesAC7RsmNR_SARCO4PyQzzKcscImh_vhsWqfWIvgA_Q95RFiQXcHBmp0OqZyYZd5QidEn4nw5Y=)
+    STRING_SESSION = os.environ.get("STRING_SESSION", None)
     # Telegram BOT Token and bot username from @BotFather
-    TG_BOT_TOKEN = os.environ.get("5795573598:AAHAVju9fArv-H09tjXO0Zgs3RnA3RIkZoA") or os.environ.get(
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
         "TG_BOT_TOKEN_BF_HER", None
     )
     TG_BOT_USERNAME = None
@@ -49,9 +49,9 @@ class Config(object):
     # BASIC and MAIN CONFIG VARS
     # for profile default name
     # Set this value with group id of private group(can be found this value by .id)
-    PRIVATE_GROUP_BOT_API_ID = int(os.environ.get("PRIVATE_GROUP_BOT_API_ID") or -1001959450466)
+    PRIVATE_GROUP_BOT_API_ID = int(os.environ.get("PRIVATE_GROUP_BOT_API_ID") or 0)
     # Set this value same as PRIVATE_GROUP_BOT_API_ID if you need pmgaurd
-    PRIVATE_GROUP_ID = int(os.environ.get("PRIVATE_GROUP_ID") or -1001959450466)
+    PRIVATE_GROUP_ID = int(os.environ.get("PRIVATE_GROUP_ID") or 0)
     # Set this value for working of fban/unfban/superfban/superunfban cmd
     FBAN_GROUP_ID = int(os.environ.get("FBAN_GROUP_ID") or 0)
     # set this value with channel id of private channel use full for .frwd cmd
