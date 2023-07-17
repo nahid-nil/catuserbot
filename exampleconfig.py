@@ -2,7 +2,7 @@ from sample_config import Config
 
 
 class Development(Config):
-    # get this values from the my.telegram.org
+    #get this values from the my.telegram.org
     APP_ID = 12008999
     API_HASH = "c578bfe1625c0bfdfc4916f3a56ea6d1"
     # the name to display in your alive message
